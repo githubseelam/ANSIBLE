@@ -15,6 +15,6 @@
         dest: /var/lib/tomcat7/webapps/gameoflife.war
     - name: start the service 
       service: 
-      name: tomcat7
+        name: tomcat7
         state: started
         enabled: yes
