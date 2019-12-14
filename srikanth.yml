@@ -16,5 +16,5 @@
     - name: start the service 
       service: 
         name: tomcat7
-        state: started
+        state: restarted
         enabled: yes
